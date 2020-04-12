@@ -8,6 +8,6 @@ There is an option to pick male or female
 * Country of Origin
 * Gender
 
-The backend api has been created using Express and Node.Js
-It is being fetched via Axios library
+The backend api was created via Express & Node.Js
+It is fetched via Axios library
 The frontend is a Bootstrap webpage 
