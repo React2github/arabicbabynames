@@ -2,7 +2,11 @@
 
 This is a web application that will utilize it's own babyname API and display an arabic baby name
 
-There should be an option to pick male or female and a submit button to render the data
+There is an option to pick male or female
+
+* It will give meaning of name
+* Country of Origin
+* Gender
 
 The backend api will be created via Express and Node.Js
 
