@@ -9,5 +9,5 @@ There is an option to pick male or female
 * Gender
 
 The backend api was created via Express & Node.Js
-It is fetched via Axios library
-The frontend is a Bootstrap webpage 
+It is fetched using Axios.
+The frontend is a Bootstrap webpage. 
