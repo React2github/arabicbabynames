@@ -13,20 +13,32 @@ justify-content: center;
     font-size: 16px;
     width: 100px;
     height: 50px;
+    border-radius: 15%;
+    border-width: 1px;
+    border-color: steelblue;
  background-color: skyblue;
 font-weight: 800;
 margin-right: 30px;
+}
+
+#male:hover {
+    background-color: seashell;
 }
 #female {
     font-size: 16px;
     width: 100px;
     height: 50px;
+    border-radius: 15%;
     font-size: 16px;
     width: 100px;
+    border-width: 1px;
+    border-color: red;
     background-color: pink;
     font-weight: 800;
 }
-
+#female:hover {
+    background-color: seashell;
+}
 #boyNames {
     width: 100px;
     padding: 25px;
