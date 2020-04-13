@@ -1,6 +1,6 @@
 
 const button2 = document.getElementById("button2");
-const random = Math.floor(Math.random() * 4) + 1;
+const random = Math.floor(Math.random() * 14) + 1;
 
 
 button2.addEventListener('click', function () {
