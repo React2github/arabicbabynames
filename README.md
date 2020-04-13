@@ -6,7 +6,7 @@ There is an option to pick male or female
 
 * It will give meaning of name
 * Country of Origin
-* Gender
+* Variations of the name
 
 * The backend api was created via Express & Node.Js
 * It is fetched using Axios.
