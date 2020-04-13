@@ -40,13 +40,20 @@ margin-right: 30px;
     background-color: seashell;
 }
 #boyNames {
-    width: 100px;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(154, 224, 250);
+    padding: 50px;
     margin-bottom: 20px;
 }
-
+.buttons {
+    display: flex;
+    justify-content: center;
+}
 #girlNames {
-    width: 100px;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 164, 177);
+    padding: 50px;
     margin-bottom: 20px;
 }
