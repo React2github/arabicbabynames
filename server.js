@@ -1,6 +1,6 @@
 var express = require('express');
 const bodyParser = require('body-parser')
-let array = [
+let boyNames = [
         {name:'Aalam', meaning:'Universe', famousFig: "Mujeeb Aalam - Pakistani singer", images: 'images/Aalam.jpeg'}, 
         {name:'Abdullah', meaning:'Servant Of Allah', famousFig: "Abdullah - former King of Saudi Arabia", images: 'images/abdullah.jpg'},
         {name:'Abdul-kareem', meaning:'Servant Of The Most Generous', famousFig: 'Abdul-Kareem Jabbar - American footballer', images: 'images/kareem.jpg'},
@@ -44,7 +44,7 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 
 app.get('/names', function(req,res,) {
-        res.json(array)
+        res.json(boyNames)
 })  
 app.get('/girlNames', function(req,res,) {
     res.json(girlNames)
