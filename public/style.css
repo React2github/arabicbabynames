@@ -46,14 +46,34 @@ margin-right: 30px;
     padding: 50px;
     margin-bottom: 20px;
 }
-.buttons {
-    display: flex;
-    justify-content: center;
-}
+
 #girlNames {
     display: flex;
     justify-content: center;
     background-color: rgb(246, 164, 177);
     padding: 50px;
     margin-bottom: 20px;
+}
+
+#button1 {
+width: 100px;
+}
+
+#button1:hover {
+background-color: seashell;
+}
+
+#button2 {
+width: 100px;
+}
+
+#button2:hover {
+background-color: seashell;
+}
+#reset {
+width: 100px;
+}
+
+#reset:hover {
+background-color: seashell;
 }

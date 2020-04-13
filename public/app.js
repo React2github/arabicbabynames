@@ -6,7 +6,7 @@ const random = Math.floor(Math.random() * 14) + 1;
 button1.addEventListener('click', function () {
     axios.get('/names')
         .then(function (response) {
-    document.getElementById("boyNames").innerHTML = "Name: " + response.data[random].name + "<br></br>" + "Meaning: " +response.data[random].meaning;
+    document.getElementById("boyNames").innerHTML = "Name: " + response.data[random].name + "<br></br>" + "Meaning: " + response.data[random].meaning + "<br></br>" + "Famous Figure: " + response.data[random].famousFig;
 
         })
 
