@@ -9,4 +9,3 @@ This is a web application that utilizes it's own babyname API and generates a ra
 
 * The backend api was created via Express & Node.Js
 * It is fetched using Axios.
-* The frontend is a Bootstrap webpage. 
