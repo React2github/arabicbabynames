@@ -1,4 +1,16 @@
+.main {
+    display: flex;
+    color: white;
+    text-shadow: 1px 1px black;
+    align-items: center;
+    background-image: url('images/home_background.jpg');
+    background-position: center;
+    height: 800px;
+}
 
+.home {
+    width: 100%;
+}
 
 .title {
 display: flex;
@@ -6,10 +18,10 @@ justify-content: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.buttons {
-display: flex;
-justify-content: center;
-}
+ .buttons {
+ display: flex;
+ justify-content: center;
+ }
 
 #male {
     font-size: 16px;
@@ -44,17 +56,25 @@ margin-right: 30px;
 #boyNames {
     display: flex;
     justify-content: center;
-    background-color: rgb(154, 224, 250);
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: 500;
+    background-image: url('images/boys_background.jpg');
     padding: 50px;
     margin-bottom: 20px;
+    height: 800px;
 }
 
 #girlNames {
     display: flex;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: 600;
     justify-content: center;
-    background-color: rgb(246, 164, 177);
+    background-image: url('images/girls_background.jpg');
     padding: 50px;
     margin-bottom: 20px;
+    height: 800px;
 }
 
 #button1 {
@@ -81,10 +101,17 @@ background-color: seashell;
 }
 
 .extra {
+    display: flex;
+    align-items: center;
     margin-left: 20%;
 }
 
 .info {
 display: flex;
 align-items: center;
+}
+
+#text {
+    display: flex;
+    align-items: center;
 }
