@@ -1,6 +1,6 @@
 # arabicbabynames
 
-This is a web application that utilizes it's own babyname API and generates a random arabic baby name
+This is a web application that utilizes it's own database and generates a random arabic baby name
 
 * There is an option to pick male or female
 * It will give an arabic name
